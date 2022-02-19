@@ -10,24 +10,27 @@
 </head>
 
 <body>
-	<div class="container">
-		<div class="card">
-			<a href="#popup"><img class="card__item card" src=" /img/test.jpg" alt=""></a>
-			<img class="card__item card" src=" /img/test.jpg" alt="">
-			<img class="card__item card" src=" /img/test.jpg" alt="">
-		</div>
+	<div class="container card-container">
+
 	</div>
-	<div id="popup" class="popup">
-		<div class="popup__body">
-			<div class="popup__content">
-				<a href="#" class="popup__close">X</a>
-				<h1 class="title">Here is title of work 1</h1>
-				<div class="popup__item">
-					<a href="#"><img class="card__item card" src=" /img/test.jpg" alt=""></a>
-				</div>
+	<div id="popup" class="popup" style="display: none;">
+		<div class="popup__layout"></div>
+		<div class="popup__content">
+			<div class="popup__close">X</div>
+			<h1 class="title"></h1>
+			<div class="popup__item">
+				<a href="#"><img class="card__item-popup card" src="" alt=""></a>
 			</div>
 		</div>
 	</div>
+	<div class="info">
+		<a href="https://github.com/Qyaers/First-task-JS">https://github.com/Qyaers/First-task-JS</a>
+	</div>
+	<template id="cardTemplate">
+		<div class="card">
+			<a href="#popup"><img class="card__item card" src="" alt=""></a>
+		</div>
+	</template>
 	<script src="/js/js.js"></script>
 </body>
 
